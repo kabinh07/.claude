@@ -1,0 +1,9 @@
+/*
+!.gitignore
+!README.md
+!settings.json
+!statusline-command.sh
+!plugins
+plugins/*
+!plugins/known_marketplaces.json
+!plugins/installed_plugins.json

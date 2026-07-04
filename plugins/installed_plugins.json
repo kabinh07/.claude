@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "plugins": {
+    "caveman@caveman": [
+      {
+        "scope": "user",
+        "installPath": "/home/kavinh07/.claude/plugins/cache/caveman/caveman/25d22f864ad6",
+        "version": "25d22f864ad6",
+        "installedAt": "2026-06-14T11:44:20.922Z",
+        "lastUpdated": "2026-06-14T11:44:20.922Z",
+        "gitCommitSha": "25d22f864ad68cc447a4cb93aefde918aa4aec9f"
+      }
+    ],
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/kavinh07/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown",
+        "version": "unknown",
+        "installedAt": "2026-06-14T11:46:44.383Z",
+        "lastUpdated": "2026-07-04T10:41:34.942Z"
+      }
+    ]
+  }
+}
