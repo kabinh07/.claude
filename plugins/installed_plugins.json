@@ -14,10 +14,21 @@
     "skill-creator@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/home/kavinh07/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown",
-        "version": "unknown",
+        "installPath": "/home/kavinh07/.claude/plugins/cache/claude-plugins-official/skill-creator/bc7282f79df7",
+        "version": "bc7282f79df7",
         "installedAt": "2026-06-14T11:46:44.383Z",
-        "lastUpdated": "2026-07-04T10:41:34.942Z"
+        "lastUpdated": "2026-07-04T10:49:33.894Z",
+        "gitCommitSha": "bc7282f79df7a07217f1b82f3d6db1828ea5878e"
+      }
+    ],
+    "agentic-harness@agentic-harness": [
+      {
+        "scope": "user",
+        "installPath": "/home/kavinh07/.claude/plugins/cache/agentic-harness/agentic-harness/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-07-22T17:21:32.278Z",
+        "lastUpdated": "2026-07-22T17:21:32.278Z",
+        "gitCommitSha": "9dfae52a4dded28d2eac00e67393b8c73965dbf3"
       }
     ]
   }

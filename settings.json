@@ -1,18 +1,25 @@
 {
-  "model": "claude-fable-5[1m]",
+  "model": "opusplan",
   "statusLine": {
     "type": "command",
     "command": "bash /home/kavinh07/.claude/statusline-command.sh"
   },
   "enabledPlugins": {
     "caveman@caveman": true,
-    "skill-creator@claude-plugins-official": true
+    "skill-creator@claude-plugins-official": true,
+    "agentic-harness@agentic-harness": true
   },
   "extraKnownMarketplaces": {
     "caveman": {
       "source": {
         "source": "github",
         "repo": "JuliusBrussee/caveman"
+      }
+    },
+    "agentic-harness": {
+      "source": {
+        "source": "directory",
+        "path": "/home/kavinh07/Github/agentic-harness"
       }
     }
   },
