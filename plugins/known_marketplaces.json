@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/home/kavinh07/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-07-29T06:26:55.592Z"
+    "lastUpdated": "2026-07-30T10:48:29.684Z"
   },
   "caveman": {
     "source": {
@@ -22,5 +22,13 @@
     },
     "installLocation": "/home/kavinh07/Github/agentic-harness",
     "lastUpdated": "2026-07-22T17:21:31.800Z"
+  },
+  "agricidaniel-claude-obsidian": {
+    "source": {
+      "source": "github",
+      "repo": "AgriciDaniel/claude-obsidian"
+    },
+    "installLocation": "/home/kavinh07/.claude/plugins/marketplaces/agricidaniel-claude-obsidian",
+    "lastUpdated": "2026-07-30T10:41:56.609Z"
   }
 }

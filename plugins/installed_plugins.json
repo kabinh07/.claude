@@ -14,11 +14,11 @@
     "skill-creator@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/home/kavinh07/.claude/plugins/cache/claude-plugins-official/skill-creator/bc7282f79df7",
-        "version": "bc7282f79df7",
+        "installPath": "/home/kavinh07/.claude/plugins/cache/claude-plugins-official/skill-creator/0e84f5548d14",
+        "version": "0e84f5548d14",
         "installedAt": "2026-06-14T11:46:44.383Z",
-        "lastUpdated": "2026-07-04T10:49:33.894Z",
-        "gitCommitSha": "bc7282f79df7a07217f1b82f3d6db1828ea5878e"
+        "lastUpdated": "2026-07-30T10:25:13.814Z",
+        "gitCommitSha": "0e84f5548d1449f0b0e9ceec67eb33d8458e93ef"
       }
     ],
     "agentic-harness@agentic-harness": [
@@ -29,6 +29,16 @@
         "installedAt": "2026-07-22T17:21:32.278Z",
         "lastUpdated": "2026-07-22T17:21:32.278Z",
         "gitCommitSha": "9dfae52a4dded28d2eac00e67393b8c73965dbf3"
+      }
+    ],
+    "claude-obsidian@agricidaniel-claude-obsidian": [
+      {
+        "scope": "user",
+        "installPath": "/home/kavinh07/.claude/plugins/cache/agricidaniel-claude-obsidian/claude-obsidian/2.0.0",
+        "version": "2.0.0",
+        "installedAt": "2026-07-30T10:41:57.069Z",
+        "lastUpdated": "2026-07-30T10:41:57.069Z",
+        "gitCommitSha": "7040a2a6b79f6dd3b20cde9bb9dc90ab04e5058f"
       }
     ]
   }
