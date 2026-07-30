@@ -1,7 +1,16 @@
 {
   "model": "opusplan",
-  "env": {
-    "CLAUDE_OBSIDIAN_VAULT": "/home/kavinh07/.vault"
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": []
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": []
+      }
+    ]
   },
   "statusLine": {
     "type": "command",
@@ -10,8 +19,7 @@
   "enabledPlugins": {
     "caveman@caveman": true,
     "skill-creator@claude-plugins-official": true,
-    "agentic-harness@agentic-harness": true,
-    "claude-obsidian@agricidaniel-claude-obsidian": true
+    "agentic-harness@agentic-harness": true
   },
   "extraKnownMarketplaces": {
     "caveman": {
@@ -25,39 +33,7 @@
         "source": "directory",
         "path": "/home/kavinh07/Github/agentic-harness"
       }
-    },
-    "agricidaniel-claude-obsidian": {
-      "source": {
-        "source": "github",
-        "repo": "AgriciDaniel/claude-obsidian"
-      }
     }
-  },
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash /home/kavinh07/.claude/hooks/obsidian-start-context.sh",
-            "timeout": 15,
-            "statusMessage": "Loading claude-obsidian vault context..."
-          }
-        ]
-      }
-    ],
-    "SessionEnd": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash /home/kavinh07/.claude/hooks/obsidian-auto-save.sh",
-            "timeout": 15,
-            "statusMessage": "Checking claude-obsidian save..."
-          }
-        ]
-      }
-    ]
   },
   "tui": "fullscreen",
   "theme": "dark",
