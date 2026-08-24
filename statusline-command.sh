@@ -128,3 +128,4 @@ line3=""
 printf "%s\n" "$line1"
 [ -n "$line2" ] && printf "%s\n" "$line2"
 [ -n "$line3" ] && printf "%s\n" "$line3"
+exit 0
