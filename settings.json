@@ -30,8 +30,8 @@
     },
     "agentic-harness": {
       "source": {
-        "source": "directory",
-        "path": "/home/kavinh07/Github/agentic-harness"
+        "source": "git",
+        "url": "https://github.com/kabinh07/agentic-harness.git"
       }
     }
   },

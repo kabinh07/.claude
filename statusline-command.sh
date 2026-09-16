@@ -12,7 +12,10 @@ week_pct=$(echo "$input" | jq -r '.rate_limits.seven_day.used_percentage // empt
 week_rst=$(echo "$input" | jq -r '.rate_limits.seven_day.resets_at // empty')
 vim_mode=$(echo "$input" | jq -r '.vim.mode // empty')
 
-email=$(cat /home/kavinh07/.claude/account-email.txt 2>/dev/null || echo "")
+config_dir="${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
+email=$(jq -r '.oauthAccount.emailAddress // empty' "$config_dir/.claude.json" 2>/dev/null)
+[ -z "$email" ] && email=$(jq -r '.oauthAccount.emailAddress // empty' "$HOME/.claude.json" 2>/dev/null)
+[ -z "$email" ] && email=$(cat /home/kavinh07/.claude/account-email.txt 2>/dev/null || echo "")
 
 # Catppuccin Mocha (256-color)
 R=$'\033[0m'
